@@ -51,4 +51,4 @@ upload_s3 = PythonOperator(
     dag=dag
 )
 
-# extract >> upload_s3
+extract >> upload_s3
