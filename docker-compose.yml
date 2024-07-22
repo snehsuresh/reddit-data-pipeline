@@ -18,6 +18,7 @@ x-airflow-common:
     - ./plugins:/opt/airflow/plugins
     - ./tests:/opt/airflow/tests
     - ./utils:/opt/airflow/utils
+    - ./assets:/opt/airflow/assets
    # - ./airflow.cfg:/opt/airflow/airflow.cfg
     - ./requirements.txt:/opt/airflow/requirements.txt
   depends_on:
