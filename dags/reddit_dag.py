@@ -36,19 +36,19 @@ extract = PythonOperator(
     task_id='reddit_extraction',
     python_callable=reddit_pipeline,
     op_kwargs={
-        'file_name': f'reddit_{file_postfix}',
-        'subreddit': 'dataengineering',
+        'file_name': f'music_{file_postfix}',
+        'subreddit': 'music',
         'time_filter': 'day',
         'limit': 100
     },
     dag=dag
 )
 
-# upload to s3
-upload_s3 = PythonOperator(
-    task_id='s3_upload',
-    python_callable=upload_s3_pipeline,
-    dag=dag
-)
+# # upload to s3
+# upload_s3 = PythonOperator(
+#     task_id='s3_upload',
+#     python_callable=upload_s3_pipeline,
+#     dag=dag
+# )
 
-extract >> upload_s3
+# extract >> upload_s3
