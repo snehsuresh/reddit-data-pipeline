@@ -1,6 +1,6 @@
 # Trending Artists Pipeline with Reddit, Airflow, Celery, Postgres, S3, AWS Glue, Athena, and Redshift
 
-This project provides a comprehensive data pipeline for extracting, transforming, and loading (ETL) and then analyzing Music data from the subreddit r/music into an Amazon Redshift data warehouse. The pipeline utilizes a combination of tools and services, including Apache Airflow, Celery, PostgreSQL, Amazon S3, AWS Glue, Amazon Athena, and Amazon Redshift.
+This project provides a comprehensive data pipeline for extracting, transforming, and loading (ETL) and then analyzing Music data from the subreddit r/music into an Amazon Redshift data warehouse. The pipeline utilizes a combination of tools and services, including Apache Airflow, Celery, PostgreSQL, Amazon S3, AWS Glue, AWS Lambda, Amazon Athena, Quicksight and Amazon Redshift.
 
 ## Overview
 
