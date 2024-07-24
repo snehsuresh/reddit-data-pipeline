@@ -36,7 +36,7 @@ The pipeline is designed to:
 
  1. Clone the repository:
     ```bash
-    git clone https://github.com/airscholar/RedditDataEngineering.git
+    git clone https://github.com/snehsuresh/reddit-data-pipeline.git
     ```
  2. Create and activate a virtual environment:
     ```bash
