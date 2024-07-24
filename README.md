@@ -44,7 +44,7 @@ The pipeline is designed to:
     source venv/bin/activate
     ```
  3. Install the dependencies:
-   ```bash
+    ```bash
     pip install -r requirements.txt
     ```
  4. Rename the configuration file and set up your credentials:
@@ -58,7 +58,7 @@ The pipeline is designed to:
  6. Launch the Airflow web UI:
     ```bash
     Open [http://localhost:8080](http://localhost:8080)
-    ```bash
+    ```
 
  ## Summary
 
