@@ -56,7 +56,9 @@ The pipeline is designed to:
     docker-compose up -d
     ```
  6. Launch the Airflow web UI:
+    ```bash
     Open [http://localhost:8080](http://localhost:8080)
+    ```bash
 
  ## Summary
 
