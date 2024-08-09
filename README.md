@@ -47,10 +47,12 @@ The pipeline is designed to:
     ```bash
     pip install -r requirements.txt
     ```
- 4. Rename the configuration file and set up your credentials:
-    ```bash
-    mv config/config.conf.example config/config.conf
-    ```
+ 4. Create a config file and set up your credentials:
+   - Database Configuration: database_host, database_name, database_port, database_username, database_password
+   - File Paths: input_path, output_path, artists_data_path
+   - API Keys: reddit_secret_key, reddit_client_id
+   - AWS Credentials: aws_access_key_id, aws_secret_access_key, aws_session_token, aws_region, aws_bucket_name
+   - ETL Settings: batch_size, error_handling, log_level
  5. Start the containers:
     ```bash
     docker-compose up -d
